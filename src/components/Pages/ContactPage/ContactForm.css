@@ -1,0 +1,64 @@
+/* ContactForm.css */
+
+.contactform-container {
+    font-family: 'Bacasime Antique', serif;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    top: 5rem;
+    /* border: 1px solid #ccc; */
+    left: 3rem;
+    /* border-radius: 5px; */
+  }
+  
+  .contactform-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .name-email{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  
+  .contactform-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactform-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contactform-container input,
+  .contactform-container textarea {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contactform-container button {
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    padding: 13px;
+    background-color: rgb(243,242,240);
+    color: #000000;
+    border: none;
+    width: 9rem;
+    border-radius: 60px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .contactform-container button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  

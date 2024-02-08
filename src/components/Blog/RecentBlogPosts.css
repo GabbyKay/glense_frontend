@@ -1,0 +1,125 @@
+.recent-blog {
+    font-family: 'Bacasime Antique', serif;
+    background-color: rgb(255, 255, 255);
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.recent-blog-container {
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+}
+
+.recent-blog-container h4 {
+    font-size: 15px;
+}
+
+.recent-blog-container h1 {
+    font-size: 40px;
+}
+
+.recent-blog-img-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    gap: 1rem;
+}
+
+
+.recent-blog-img {
+    position: relative;
+    top: 2rem;
+}
+
+.img1-text {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    height: 40vh;
+    width: 80%;
+    bottom: 5rem;
+    left: 3rem;
+}
+
+.img1-inner-text {
+    position: relative;
+    width: 80%;
+    left: 4rem;
+    top: 2rem;
+}
+
+.img1-inner-text p {
+    letter-spacing: 1px;
+    width: 100%;
+    position: relative;
+    top: 1rem;
+}
+
+
+/* mobile version  */
+
+@media (max-width: 768px) {
+
+    .recent-blog {
+        font-family: 'Bacasime Antique', serif;
+        background-color: rgb(255, 255, 255);
+        height: 98vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .recent-blog-container {
+        position: relative;
+        top: 4rem;
+        left: 2rem;
+    }
+
+
+    .recent-blog-img-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 70%;
+        gap: 0rem;
+        /* right: 2rem; */
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+        /* height: 30vh; */
+    }
+
+    .img1-text {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        position: relative;
+        height: 18vh;
+        width: 100%;
+        bottom: 5rem;
+        left: 3rem;
+    }
+
+    .img1-inner-text {
+        position: relative;
+        width: 90%;
+        left: 1rem;
+        top: 1rem;
+
+    }
+
+    .img1-inner-text h1 {
+        font-size: 20px;
+    }
+
+    .img1-inner-text p {
+        font-size: 10px;
+    }
+
+    .recent-blog-img {
+        position: relative;
+        /* background-color: blue; */
+        height: 35vh;
+    }
+}

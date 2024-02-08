@@ -1,0 +1,75 @@
+.full-blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .full-blog-post-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .full-blog-post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .full-blog-post-content {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .full-blog-post-details {
+    margin-top: 20px;
+    color: #888;
+  }
+
+
+.loading-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.skeleton-image {
+  width: 150px;
+  height: 150px;
+  background-color: #e0e0e0;
+}
+
+.skeleton-content {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+}
+
+.skeleton-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 15px;
+}
+
+.skeleton-author {
+  width: 40%;
+  height: 15px;
+  background-color: #e0e0e0;
+}
+
+.skeleton-date {
+  width: 30%;
+  height: 15px;
+  background-color: #e0e0e0;
+}
+
+/* Rest of your existing styles for the FullBlogPost component */
+
+  

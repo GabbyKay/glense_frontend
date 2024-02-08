@@ -1,0 +1,159 @@
+.testimonial-container {
+    font-family: 'Bacasime Antique', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.testimonialimg img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 4rem;
+}
+
+.testimonial-card {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 85%;
+    height: 60vh;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    left: 2rem;
+    text-align: center;
+    background-color: rgb(243, 242, 240);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+
+}
+
+/* Add hover styles for testimonial card */
+.testimonial-card:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    object-fit: cover;
+    display: block;
+}
+
+.testimonial-message {
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.testimonial-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* testimonial2  */
+.testimonial2 {
+    font-family: 'Bacasime Antique', serif;
+    position: relative;
+    top: 5rem;
+    background-color: black;
+    width: 100;
+    height: 100vh;
+    color: white;
+}
+
+.testimonial2-heading {
+    padding-top: 7rem;
+    text-align: center;
+}
+
+.testimonial2-heading h1 {
+    font-size: 2.5rem;
+}
+
+.testimonial2-inner-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    top: 3rem;
+}
+
+.testimonial2-inner-container-rtd {
+    position: relative;
+    /* background-color: chartreuse; */
+    width: 45%;
+    height: 40vh;
+}
+
+.testimonial2-inner-container-ltd {
+    position: relative;
+    /* background-color: chartreuse; */
+    width: 45%;
+    height: 40vh;
+}
+
+/* testimonial-contactus  */
+
+.t-contactus {
+    background-color: rgb(243,242,240);
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    color: #000;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.t-contactus-span{
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+
+}
+
+.t-contactus-container{
+    text-align: left;
+    position: relative;
+    left: 8rem;
+    top: 8rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.t-contactus-container h4{
+    color: rgb(0, 0, 0);
+    font-size:30px;
+}
+
+.t-contactus-btn{
+    background-color: transparent;
+    width: 10%;
+    border-radius: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 11px;
+    color: rgb(0, 0, 0);
+    height: 48px;
+    position: relative;
+    left: 20rem;
+    top: 2rem;
+    
+}

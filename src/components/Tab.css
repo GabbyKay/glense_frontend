@@ -1,0 +1,32 @@
+/* styles for the tab header */
+.tab-header {
+    display: flex;
+  }
+  
+  .tab-item {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  
+  .tab-item.active {
+    background-color: #ccc;
+  }
+  
+  /* styles for the tab content */
+  .tab-content {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* styles for the tab data */
+  .tab-data {
+    margin-top: 10px;
+  }
+  
+  .tab-data div {
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,143 @@
+.Gallery{
+  background-color: black;
+  width: 100%;
+  font-family: 'Bacasime Antique', serif;
+
+}
+
+.bgimgslide{
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  width: 100%;
+}
+
+.gallery-container {
+  text-align: center;
+}
+
+.gallery-container-h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 2rem;
+  padding-top: 4rem;
+  font-family: 'Bacasime Antique', serif;
+
+}
+
+.album-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album-container {
+  cursor: pointer;
+  width: 250px;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.3s; /* Add a transition for smooth scaling effect on hover */
+  position: relative; /* Add a relative position for the container */
+}
+
+.album-cover img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.album-container:hover {
+  transform: scale(1.05); /* Scale up the album cover on hover */
+}
+
+.album-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0; /* Initially hide the album name */
+  pointer-events: none; /* Prevent the album name from being clickable */
+  transition: opacity 0.3s, transform 0.3s; /* Add transitions for smooth appearance and position change on hover */
+}
+
+.album-container:hover .album-name {
+  opacity: 1; /* Show the album name on hover */
+  transform: translate(-50%, -70%); /* Move the album name to the middle of the cover image on hover */
+}
+
+
+.slideshow-container {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+  display: none;
+}
+
+.slideshow-container.show {
+  display: block;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+/* .thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+} */
+
+/* ... (previous CSS code) */
+
+/* Add a transition for sliding effect */
+.thumbnail-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent thumbnails from wrapping */
+  margin-top: 10px;
+}
+
+/* Make the thumbnail container scrollable */
+.thumbnail-scroll-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  transition: transform 0.3s; /* Add a transition for smooth sliding effect */
+  scrollbar-width: none; /* Hide the scrollbar on Firefox */
+  -ms-overflow-style: none; /* Hide the scrollbar on IE and Edge */
+}
+
+.thumbnail-scroll-container::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar on Chrome and Safari */
+}
+
+/* ... (previous CSS code) */
+
+
+.thumbnail {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  object-fit: cover;
+  border: 2px solid transparent;
+}
+
+.thumbnail.active {
+  border-color: #007bff;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 18px;
+  color: #333;
+}

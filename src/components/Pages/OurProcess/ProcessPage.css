@@ -1,0 +1,146 @@
+.process-container{
+    font-family: 'Bacasime Antique', serif;
+    /* background-color: aqua; */
+    /* height: 400vh; */
+
+}
+
+
+.prcess-bg-img {
+    position: relative;
+    object-fit: cover;
+
+}
+
+.process-heading{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 5rem;
+    width: 40%;
+    left: 4rem ;
+}
+
+.process-heading h1{
+    position: absolute;
+    font-size: 3rem;
+}
+
+.process-content-hr{
+    color: grey;
+    border: 0.1px solid;
+    opacity: 30%;
+    width: 89% 
+}
+
+/* process-content  */
+
+.process-content{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: 125vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding-top: 6rem;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.process-content-img{
+    width: 50%;
+}
+
+.process-content-txt {
+    position: relative;
+    width: 55%;
+    top: 10rem;
+}
+
+.process-content-txt h1{
+    font-size: 3.5rem;
+
+}
+
+.process-content-txt h2{
+    font-size: 2rem;
+    color: grey;
+
+}
+
+.process-content-txt p{
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 90%;
+    letter-spacing: 1px;
+    
+}
+
+.process-content2{
+    width: 100%;
+    height: 125vh;
+    background-color: rgb(243,242,240);
+    position: relative;
+    padding-top: 6rem;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.process-content2-img{
+    width: 50%;
+    position: relative;
+    top: 9rem;
+}
+
+.process-content2-txt {
+    position: relative;
+    width: 55%;
+    top: 0rem;
+}
+
+.process-content2-txt h1{
+    font-size: 3.5rem;
+
+}
+
+.process-content2-txt h2{
+    font-size: 2rem;
+    color: grey;
+
+}
+
+.process-content2-txt p{
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 90%;
+    letter-spacing: 1px;
+    /* line-height: 0rem; */
+    
+}
+ 
+/* contact us  */
+.contactus-in-process-container{
+    /* background-color: aqua; */
+    height: 50vh;
+    width: 100%;
+}
+
+/* Skeleton Loading Styles */
+.skeleton-loading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .skeleton-section {
+    height: 20px; /* Adjust as needed */
+    width: 100%;
+    background-color: #f0f0f0; /* Light gray */
+    border-radius: 4px;
+  }
+  
+  /* Media queries or additional styles as needed */
+  
+ 

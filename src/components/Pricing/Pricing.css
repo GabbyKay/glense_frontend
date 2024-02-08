@@ -1,0 +1,135 @@
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 20px; */
+    padding-right: 2rem;
+    padding-left: 2rem;
+    overflow: hidden;
+    background-color: rgb(243,242,240);
+    font-family: 'Bacasime Antique', serif;
+
+}
+
+.price-heading{
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    padding-top: 4rem;
+    font-size: large;
+}
+
+.price-heading h1{
+    font-size: 50px;
+}
+
+.plan-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    flex-direction: row;
+}
+
+.plan-name {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.plan-description {
+    width: 70%;
+    letter-spacing: 2px;
+}
+
+.plan-price {
+    position: relative;
+    right: 13rem;
+    padding-top: 5.5rem;
+    font-family: 'Bacasime Antique', serif;
+
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan-features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.plan-features li {
+    margin-bottom: 5px;
+}
+
+.plan-button {
+    position: relative;
+    top: 11rem;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.price-btn {
+    display: flex, ;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+
+@media (max-width: 768px) {
+    .price-heading{
+        text-align: center;
+        position: relative;
+        top: 2rem;
+        padding-top: 2rem;
+    }
+
+    .price-heading h1{
+        font-size: 25px;
+    }
+
+    .plan-card {
+        padding: 20px;
+        
+    }
+    .price-btn {
+        display: flex, ;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        bottom: 10rem;
+        right: 7.7rem;
+    }
+
+    .plan-price {
+        position: relative;
+        right: 13rem;
+        top: 14.5rem;
+        font-family: 'Bacasime Antique', serif;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .plan-description {
+        width: 300px;
+        text-align: justify;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+}

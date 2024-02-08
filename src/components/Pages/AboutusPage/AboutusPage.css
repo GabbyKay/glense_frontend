@@ -1,0 +1,334 @@
+.AboutusPage {
+    /* height: 100vh; */
+    background-color: rgb(0, 0, 0);
+    font-family: 'Bacasime Antique', serif;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.AboutusPage-container {
+    font-family: 'Bacasime Antique', serif;
+    background-color: black;
+    opacity: 100%;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-heading-txt {
+    position: absolute;
+    bottom: -2rem;
+    left: 4rem;
+    /* top: 10rem; */
+    z-index: 1;
+    color: rgb(255, 255, 255);
+}
+
+.about-heading-txt h1 {
+    font-size: 4rem;
+}
+
+/* animate the text  */
+@keyframes slideFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-from-bottom {
+    animation: slideFromBottom 2.3s ease-in-out;
+}
+
+
+.AboutusPage-text {
+    background-color: black;
+    /* top: 1rem; */
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    /* justify-content: space-between; */
+    gap: 5rem;
+
+}
+
+.Aboutpage-left-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+    top: 8rem;
+    /* background-color: blue; */
+    width: 20%;
+    height: 60vh;
+    left: 4rem;
+}
+
+.Aboutpage-txt-left h2 {
+    position: relative;
+    font-size: 19px;
+}
+
+.Aboutpage-txt-left p {
+    position: relative;
+    font-size: 13px;
+}
+
+/* middle  */
+.Aboutpage-middle-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 4rem;
+    gap: 5rem;
+    /* background-color: blueviolet; */
+    width: 29%;
+    /* text-align: left; */
+    height: 80vh;
+    font-size: 14.4px;
+}
+
+.Aboutpage-right-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    /* text-align: left; */
+    height: 50vh;
+    font-size: 14.4px;
+    top: 3.8rem;
+    gap: 5rem;
+
+}
+
+.abt-img-11-container {
+    width: 100%;
+    height: 80vh;
+}
+
+.abt-img-11 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.AboutusPage-text-container-sec2 {
+    /* background-color: blue; */
+    height: 85vh;
+    width: 100%;
+
+}
+
+
+.AboutusPage-text-sec2 {
+    background-color: black;
+    /* top: 1rem; */
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    /* justify-content: space-between; */
+    gap: 7rem;
+
+}
+
+.Aboutpage-left-container-sec2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    top: 4rem;
+    /* background-color: blue; */
+    width: 30%;
+    height: 60vh;
+    left: 2rem;
+}
+
+.Aboutpage-txt-left-sec2 h2 {
+    position: relative;
+    font-size: 13px;
+}
+
+.Aboutpage-txt-left-sec2 p {
+    position: relative;
+    font-size: 13px;
+}
+
+.Aboutpage-middle-container-sec2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 4rem;
+    gap: 4rem;
+    /* background-color: blueviolet; */
+    width: 30%;
+    /* text-align: left; */
+    height: 80vh;
+    font-size: 14.4px;
+}
+
+.Aboutpage-right-container-sec2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* text-align: left; */
+    height: 50vh;
+    font-size: 14.4px;
+    top: 4rem;
+    gap: 5rem;
+    right: 2rem;
+
+}
+
+/* services  */
+.aboutuspage-services{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+
+.aboutuspage-services h1{
+    font-size: 2.5rem;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+}
+
+.aboutuspage-services p{
+    font-size: 1rem;
+    width: 80%;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+
+    margin-top: auto;
+    margin: auto;
+}
+
+.aboutuspage-services-img{
+    position: relative;
+    left: 3rem;
+    width: 20%;
+    height: 30vh;
+    margin-top: auto;
+    top: 4rem;
+}
+
+/* footer */
+.aboutus-footer{
+    position: relative;
+    top: 3rem;
+}
+
+/* mobile version  */
+
+@media (max-width: 768px) {
+
+    .about-heading-txt {
+        position: absolute;
+        /* bottom: -2rem; */
+        left: 2rem;
+        top: 13rem;
+        z-index: 1;
+        color: rgb(255, 255, 255);
+    }
+
+    .about-heading-txt h1 {
+        font-size: 1rem;
+    }
+
+
+
+    .AboutusPage {
+        /* height: 100vh; */
+        background-color: blue;
+        font-family: 'Bacasime Antique', serif;
+        overflow: hidden;
+        height: 116vh;
+
+    }
+
+    .AboutusPage-text {
+        background-color: black;
+        position: relative;
+        bottom: 34rem;
+        /* padding-top: -6rem; */
+        /* background-color: blue; */
+        gap: 2rem;
+    }
+
+    .Aboutpage-left-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 14rem;
+        top: 9.6rem;
+        /* background-color: blue; */
+        width: 20%;
+        height: 60vh;
+        left: 1rem;
+    }
+
+    .Aboutpage-txt-left h2 {
+        position: relative;
+        font-size: 10px;
+    }
+
+    .Aboutpage-txt-left p {
+        position: relative;
+        font-size: 9px;
+    }
+
+    /* middle  */
+    .Aboutpage-middle-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 4rem;
+        gap: 2.8rem;
+        /* background-color: blueviolet; */
+        width: 29%;
+        /* text-align: left; */
+        height: 80vh;
+        font-size: 10.4px;
+    }
+
+    .Aboutpage-right-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 31%;
+        /* text-align: left; */
+        height: 50vh;
+        font-size: 10.4px;
+        top: 3.8rem;
+        gap: 2.9rem;
+
+    }
+
+    .abt-img-11-container {
+        /* object-fit: contain; */
+    }
+
+    /* .AboutusPage-text-sec2{
+        position: relative;
+        display: flex;
+    } */
+}
