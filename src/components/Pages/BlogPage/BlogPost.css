@@ -49,6 +49,27 @@
     text-decoration: none;
     color: inherit;
   }
+
+  .post{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  .load-more-button{
+    background-color: transparent;
+    width: 13%;
+    border-radius: 2rem;
+    border: 1px solid white;
+    text-align: center;
+
+    padding: 2px;
+    color: white;
+    height: 48px;
+    position: relative;
+    /* left: 20rem;
+    top: 0rem; */
+  }
   
   /* Add your additional styling for each blog post here if needed */
 

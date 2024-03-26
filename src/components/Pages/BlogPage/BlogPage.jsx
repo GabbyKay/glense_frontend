@@ -20,7 +20,7 @@ const BlogPage = () => {
         <h1 className="blog-heading">Blog Posts</h1>
         <div className="blog-grid">
           {blogPosts.slice(0, visiblePosts).map((post) => (
-            <Link key={post.id} to={`/blog/${post.id}`}>
+            <Link className="post" key={post.id} to={`/blog/${post.id}`}>
               {/* Use Link to navigate to FullBlogPost with the id parameter */}
               <BlogPost post={post} />
             </Link>

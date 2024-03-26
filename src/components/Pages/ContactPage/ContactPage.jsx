@@ -90,7 +90,7 @@ const ContactPage = () => {
             <h1>Address</h1>
             <br />
             <p>
-              Eureka St, San Francisco, <br /> CA 94114, USA
+              18 Ariel Close, Colchester, <br /> C04 3SJ, UK
             </p>
           </div>
           <div style={{ border: "0.4px solid white", padding: "4rem 6rem" }}>

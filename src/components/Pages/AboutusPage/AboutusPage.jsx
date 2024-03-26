@@ -12,8 +12,8 @@ const AboutusPage = () => {
         {/* <h1>oiugyfdghjklj;kjbhvk</h1> */}
         <div className="AboutusPage-container">
           <img
-            style={{ opacity: "40%" }}
-            src="images/Aboutimg/img4.jpg"
+            style={{ opacity: "40%", maxWidth:"100%"}}
+            src="images/Aboutimg/img4.jpg  "
             alt=""
           />
         </div>
@@ -198,7 +198,7 @@ const AboutusPage = () => {
           smiles to their faces
         </p>
         <div className="aboutuspage-services-img">
-          <img src="./images/servicesimg/img1.jpg" alt="" />
+          <img style={{maxWidth:"100%"}} src="./images/servicesimg/img1.jpg" alt="" />
         </div>
       </div>
       <div className="portfolio">

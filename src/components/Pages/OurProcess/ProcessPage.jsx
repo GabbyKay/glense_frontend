@@ -78,8 +78,8 @@ const ProcessPage = () => {
       <Navbar />
       {isLoading ? <SkeletonLoading /> : (
         <>
-          <div className="prcess-bg-img">
-            <img src="./images/Processimg/img1.jpg" alt="" />
+          <div className="process-bg-img">
+            <img style={{maxWidth:"100%"}} src="./images/Processimg/img1.jpg" alt="" />
             <div className="process-heading">
               <h3>OUR PROCESS</h3>
               <h1>TIMELESS MEMORIES</h1>
@@ -88,7 +88,7 @@ const ProcessPage = () => {
       {/* process content */}
       <div className="process-content">
         <div className="process-content-img">
-          <img src="./images/Processimg/img2.jpg" alt="" />
+          <img src="./images/Processimg/img2.jpg" alt="" width={600} />
         </div>
         <div className="process-content-txt">
           <h2>OI.</h2>
@@ -121,14 +121,14 @@ const ProcessPage = () => {
           </p>
         </div>
         <div className="process-content2-img">
-          <img src="./images/Processimg/img2.jpg" alt="" />
+          <img src="./images/Processimg/img2.jpg" alt="" width={600}/>
         </div>
       </div>
       
       {/* process content3 */}
       <div className="process-content">
         <div className="process-content-img">
-          <img src="./images/Processimg/img2.jpg" alt="" />
+          <img src="./images/Processimg/img2.jpg" alt="" width={600} />
         </div>
         <div className="process-content-txt">
           <h2>O3.</h2>
@@ -148,7 +148,7 @@ const ProcessPage = () => {
       <div className="contactus-in-process-container">
       <Contactus/>
       </div>
-
+      
       {/* faqpage  */}
       <div className="the-faq">
         <div className="faq-heading">

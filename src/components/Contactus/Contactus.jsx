@@ -10,7 +10,7 @@ const Contactus = () => {
           <h4> someone with experience to collaborate with?</h4>
         </div>
         <div className="contactus-btn">
-        <button>Contact Us</button>
+        <button className="button-text-style ">Contact Us</button>
         </div>
       </div>
       container

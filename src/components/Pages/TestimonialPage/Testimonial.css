@@ -4,10 +4,10 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 100%;
+    max-width: 100%;
 }
 
-.testimonialimg img {
+.testimonial-bg-img img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -17,20 +17,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    row-gap: 4rem;
+    row-gap:2rem;
 }
 
 .testimonial-card {
     position: relative;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+    text-align: center;
+    padding: 35px;
     width: 85%;
-    height: 60vh;
+    height: 50vh;
     /* border: 1px solid #ccc; */
     /* border-radius: 5px; */
-    left: 2rem;
-    text-align: center;
+    /* left: 2rem; */
+    max-width: 90%;
     background-color: rgb(243, 242, 240);
     overflow: hidden;
     opacity: 0;
@@ -145,15 +144,26 @@
 
 .t-contactus-btn{
     background-color: transparent;
-    width: 10%;
+    width: 13%;
     border-radius: 2rem;
     border: 1px solid rgb(0, 0, 0);
     text-align: center;
-    padding: 11px;
+
+    padding: 3px;
     color: rgb(0, 0, 0);
     height: 48px;
     position: relative;
     left: 20rem;
     top: 2rem;
     
+}
+
+.t-button-text-style{
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 18px;
+    margin-top: 0.8rem;
 }

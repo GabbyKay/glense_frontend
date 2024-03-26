@@ -36,7 +36,7 @@ const Footer = () => {
         </ul>
         <hr className="footer-hr" />
       </nav>
-      <div style={{ textAlign: "center", position: "relative", top: "4rem" }}>
+      <div style={{ textAlign: "center", position: "relative", top: "0rem" }}>
         <h3>{year} All Rights Reserved.</h3>
       </div>
     </footer>

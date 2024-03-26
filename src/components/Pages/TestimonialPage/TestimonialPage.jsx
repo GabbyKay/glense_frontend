@@ -29,7 +29,7 @@ const TestimonialPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="testimonialimg">
+      <div className="testimonial-bg-img">
         <img src="./images/testimonialimg/img4.jpg" alt="" />
       </div>
       <br />
@@ -130,7 +130,7 @@ const TestimonialPage = () => {
           <h4> someone with experience to collaborate with?</h4>
         </div>
         <div className="t-contactus-btn">
-        <a href="/ContactPage"><button>Contact Us</button></a>
+        <a href="/ContactPage"><button className="t-button-text-style ">Contact Us</button></a>
         </div>
       </div>
     </div>

@@ -31,17 +31,28 @@
 
 .contactus-btn{
     background-color: transparent;
-    width: 10%;
+    width: 13%;
     border-radius: 2rem;
     border: 1px solid white;
     text-align: center;
-    padding: 11px;
+
+    padding: 3px;
     color: white;
     height: 48px;
     position: relative;
     left: 20rem;
     top: 2rem;
     
+}
+
+.button-text-style{
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 0.8rem;
 }
 
 
